@@ -1,0 +1,7 @@
+.env
+node_modules/
+dist/
+playwright-report/
+reports/
+.auth/
+auth-sessions/

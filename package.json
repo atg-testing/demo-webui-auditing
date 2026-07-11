@@ -1,0 +1,24 @@
+{
+"name": "demo-webui-auditing",
+"version": "1.0.0",
+  "description": "ATG demo project — security & compliance audit suite for SauceDemo's login form (Web UI Auditing)",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:trace": "playwright show-trace",
+"test:report": "npm test && npx playwright show-report"
+  },
+  "engines": {
+    "node": ">=24.x"
+    , "npm": ">=9.0.0"
+      },
+  "dependencies": {},
+"devDependencies": {
+"@faker-js/faker": "^8.4.1",
+"@playwright/test": "^1.59.1",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "dotenv": "^16.3.0"
+}
+}
